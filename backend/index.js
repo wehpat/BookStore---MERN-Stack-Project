@@ -11,6 +11,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     console.log(req)
+    console.log("Hello World")
     return res.status(234).send("Welcome to my Book-store Project")
 });
 
